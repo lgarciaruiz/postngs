@@ -1,0 +1,38 @@
+{
+  "name": "postngs",
+  "version": "1.0.0",
+  "description": "first website project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lgarciaruiz/postngs.git"
+  },
+  "author": "Leo Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lgarciaruiz/postngs/issues"
+  },
+  "homepage": "https://github.com/lgarciaruiz/postngs#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-flatmap": "^1.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rev": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-usemin": "^0.3.30"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
