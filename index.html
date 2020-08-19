@@ -1,18 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>Postngs</title>
-</head>
-<body>
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-</body>
+      <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/styles.css">
+
+      <title>Postngs</title>
+
+   </head>
+
+   <body>
+
+      <header>
+         <nav class="navbar navbar-expand-sm navbar-dark">
+            <a class="navbar-brand" href="#">Postngs</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+               <ul class="navbar-nav mr-auto">
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="categories" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</a>
+                     <div class="dropdown-menu shadow-sm" aria-labelledby="categories">
+                        <a class="dropdown-item" href="#">News</a>
+                        <a class="dropdown-item" href="#">Movies</a>
+                        <a class="dropdown-item" href="#">Sports</a>
+                     </div>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Sign In</a>
+                  </li>
+                  <li class="nav-item d-md-none">
+                     <a class="nav-link" href="#">Sign Up</a>
+                  </li>
+               </ul>
+            </div>
+            <a href="#" class="btn btn-sm btn-light d-none d-md-block">Post An Article</a>
+         </nav>
+      </header>
+
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6" id="stories">
+               <div class="story-container">
+                    <h5>Title of Story</h5>
+                    <p class="d-block">Story sample text....</p>
+               </div>
+               <div class="story-container">
+                    <h5>Title of Story</h5>
+                    <p class="d-block">Story sample text....</p>
+               </div>
+            </div>
+
+            <div class="col-md-6" id="toRead">
+                Add Stories to read
+            </div>
+         </div>
+      </div>
+      
+      <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+      <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+   </body>
 </html>

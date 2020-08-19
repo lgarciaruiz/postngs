@@ -1,3 +1,17 @@
 body {
-  background: red;
-  color: black; }
+  background: #f6f6f6; }
+
+.story-container {
+  background-color: #e4e3e3;
+  padding: 10px;
+  margin: 20px 0; }
+
+.navbar-dark {
+  background: #204051; }
+  .navbar-dark .navbar-nav .nav-link {
+    color: #e4e3e3; }
+
+.btn-light {
+  background-color: #e4e3e3;
+  border-color: #e4e3e3;
+  color: #204051; }
