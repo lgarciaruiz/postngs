@@ -1,0 +1,11 @@
+@import "./colors";
+
+body {
+    background: $background;
+}
+
+.btn-light{
+    background-color: $light;
+    border-color: $light;
+    color: $dark;
+}

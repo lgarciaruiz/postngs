@@ -7,7 +7,9 @@
 
       <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
       <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-      <link rel="stylesheet" href="css/styles.css">
+      <link rel="stylesheet" href="css/global-styles.css">
+      <link rel="stylesheet" href="css/nav-styles.css">
+      <link rel="stylesheet" href="css/stories-styles.css">
 
       <title>Postngs</title>
 
@@ -46,18 +48,23 @@
       <div class="container">
          <div class="row">
             <div class="col-md-6" id="stories">
-               <div class="story-container">
-                    <h5>Title of Story</h5>
-                    <p class="d-block">Story sample text....</p>
+               <div class="story-container" id="story-1">
+                    <h5>What is Lorem Ipsum?</h5>
+                    <p class="d-block">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has...</p>
                </div>
-               <div class="story-container">
-                    <h5>Title of Story</h5>
-                    <p class="d-block">Story sample text....</p>
+               <div class="story-container" id="story-2">
+                    <h5>Why do we use it?</h5>
+                    <p class="d-block">It is a long established fact that a reader will be distracted by the readable content of a...</p>
                </div>
             </div>
 
             <div class="col-md-6" id="toRead">
-                Add Stories to read
+               <button type="button" class="close" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+               <div class="current-stories" id="instructions">
+                   Click on a story to read!
+               </div>
             </div>
          </div>
       </div>
@@ -65,6 +72,7 @@
       <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
       <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
       <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="/js/scripts.js"></script>
 
    </body>
 </html>
