@@ -9,3 +9,39 @@ body {
     border-color: $light;
     color: $dark;
 }
+
+.btn-primary {
+    background-color: $primary;
+    border-color: $primary;
+    color: $light;
+
+    &:hover {
+        background-color: $dark;
+        border-color: $dark;
+        color: $light;
+    }
+}
+
+.btn-terniary {
+    background-color: $terniary;
+    border-color: $terniary;
+    color: $light;
+
+    &:hover {
+        background-color: $dark;
+        border-color: $dark;
+        color: $light;
+    }
+}
+
+.like-button{
+    background: $background;
+    font-size: 200%;
+    margin:10px;
+    text-decoration: none;
+    color: $dark;
+    &:active, &:hover {
+        color: $primary;
+        text-decoration: none;
+    }
+}

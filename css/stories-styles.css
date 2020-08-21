@@ -2,3 +2,8 @@
   background-color: #e2e0e0;
   padding: 20px;
   margin: 20px 0; }
+
+.story-container:hover {
+  border: 1px solid #83c5be;
+  cursor: pointer;
+  transition: all 0.5s; }

@@ -5,3 +5,31 @@ body {
   background-color: #e2e0e0;
   border-color: #e2e0e0;
   color: #204051; }
+
+.btn-primary {
+  background-color: #006d77;
+  border-color: #006d77;
+  color: #e2e0e0; }
+  .btn-primary:hover {
+    background-color: #204051;
+    border-color: #204051;
+    color: #e2e0e0; }
+
+.btn-terniary {
+  background-color: #e29578;
+  border-color: #e29578;
+  color: #e2e0e0; }
+  .btn-terniary:hover {
+    background-color: #204051;
+    border-color: #204051;
+    color: #e2e0e0; }
+
+.like-button {
+  background: #f6f6f6;
+  font-size: 200%;
+  margin: 10px;
+  text-decoration: none;
+  color: #204051; }
+  .like-button:active, .like-button:hover {
+    color: #006d77;
+    text-decoration: none; }
